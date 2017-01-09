@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale =1">
+	<title> Your master</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="http://allfont.ru/allfont.css?fonts=open-sans-bold" rel="stylesheet" type="text/css" />
+	<link href="http://allfont.ru/allfont.css?fonts=open-sans-bold-italic" rel="stylesheet" type="text/css" />
+	<link href="http://allfont.ru/allfont.css?fonts=open-sans-italic" rel="stylesheet" type="text/css" />
+	<link href="http://allfont.ru/allfont.css?fonts=open-sans" rel="stylesheet" type="text/css" />
+	<link href="http://allfont.ru/allfont.css?fonts=open-sans-light-italic" rel="stylesheet" type="text/css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+
+</head>
+
+<body>
+
+<!-- White header -->
+
+<header>
+	<div class="container">
+	
+	<div class= "col-lg-3 col-md-3 image-responsive logo">
+		<img src="img/logo.png"/>
+	</div>
+
+	<div class= "col-lg-3 col-md-3">
+		<h1 class="offer"> Ремонт квартир и офисов <br>в Ярославле под ключ </h1>
+	</div>
+
+	<div class="col-lg-2 col-md-2">
+		<button class="top_button">Узнайте <br> стоимость </button> 
+	</div>
+
+	<div class= "col-lg-4 col-md-4">
+		<img class="icon" src="img/phone_icon.png"/>
+		<p class="phone">8-(812)345-12-12</p>
+		<p class="time">без выходных, с 9 до 21</p>
+	</div>
+ 
+</div>
+
+
+<nav class="navbar navbar-default text-uppercase">
+			<div class="container">
+								
+				
+				<!-- MOBILE MENU -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<!-- DESKTOP MENU -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-left">
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">Примеры работ</a></li>
+						<li><a href="#">Услуги</a></li>
+						<li><a href="#">Цены</a></li>
+						<li><a href="#">Отзывы</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+</header>
+
+
+<!--What we do generally -->
+<div class="container-fluid first_screen"> 
+
+	<div class="audit container">
+	
+
+	<div class="col-md-9 smeta">
+		<h2 class="boarder"> Сделаем аудит</h2>
+		<p class="estimate">Вашей сметы</p>
+		<p class="savings">и подскажем на чем <br> можно <span>сэкономить 25% </span> </p>
+		<p class="making_savings">Как сэкономить на ремонте?</p>
+	</div>
+
+
+</div>
+</div>
+
+<!-- Second screen-->
+
+
+<div class="container-fluid second_section">
+<div class="container how_we_work">
+
+
+<div class="col-lg-6 col-md-6 we_give"> 
+		<p class="manifest"> <span> Наш </span> манифест</p>
+
+		<p  class="suggest">Мы <b>зарабатываем только на работах,</b> <br> никогда не нацениваем на строительных материалах.<br> <br> В силу того, что наши <b>цены всегда <br> прозрачны, </b>мы предлагаем <span> аудит вашей <br>сметы от стороннего подрядчика </span> на <br> предмет возможности экономии. </p>
+	
+</div>   
+	
+    <div class="form_for_upload">
+<p class="load">прикрепите файл сметы от подрядчика <img src="img/load.png"/></p>
+<p class="drop">или перетащите мышкой 
+<img src="img/upload_icon.png"/></p>
+
+<form class="forma">
+<input id="name" type="text" placeholder="Вашe имя"  class="" /> <br>
+<input id="phonenumber" type="text" placeholder="+7 ( _ _ _ ) _ _ _ - _ _ - _ _" class="text-input"/>
+
+</form>
+<button class="form_button " onclick="cart.sendOrder('formToSend,overflw,bsum');">Оценить ремонт дешевле</button> 
+
+
+     </div>
+
+	<div class="hours24"> 
+		<div class="time_to_estimate">
+			<p class="hours">24</p>
+			<p class="hours2" >часа</p> 
+			<p class="estimates">время на оценку</p> 
+		</div>
+	</div>
+
+    <img class="helmet" src="img/helmet.png" />
+
+
+</div>
+</div>
+
+
+<section class=" container-fluid our_works">
+	
+
+<div class="container slider_show"> 
+		<p class="example text-center">Примеры выполненных работ</p>
+
+   <diV class="white_pad"> 
+
+<div id="slider">
+	
+	<div class="row">
+	<div class="col-md-12">
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			
+	<!-- SLIDES -->
+
+	<div class="carousel-inner" role="listbox">
+	<div class="item active">
+	<img src="img/slide1.jpg" alt="Slide 1">
+	<section class="carousel-caption">
+	<h2>Slide 1</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt repellendus quod enim debitis eligendi iste ratione eum distinctio neque.</p>
+	</section>
+	</div>
+
+	<div class="item">
+	<img src="img/slide2.jpg" alt="Slide 2">
+	<section class="carousel-caption">
+	<h2>Slide 2</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt repellendus quod enim debitis eligendi iste ratione eum distinctio neque.</p>
+	</section>
+	</div>
+
+	<div class="item">
+	<img src="img/slide3.jpg" alt="Slide 3">
+	<section class="carousel-caption">
+	<h2>Slide 3</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt repellendus quod enim debitis eligendi iste ratione eum distinctio neque.</p>
+	</section>
+	</div>  <!--item close-->
+
+	<div class="item">
+	<img src="img/slide4.jpg" alt="Slide 3">
+	<section class="carousel-caption">
+	<h2>Slide 4</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt repellendus quod enim debitis eligendi iste ratione eum distinctio neque.</p>
+	</section>
+	</div>  <!--item close-->
+
+	<div class="item">
+	<img src="img/slide5.jpg" alt="Slide 3">
+	<section class="carousel-caption">
+	<h2>Slide 5</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt repellendus quod enim debitis eligendi iste ratione eum distinctio neque.</p>
+	</section>
+	</div>  <!--item close--> 
+
+	<div class="item">
+	<img src="img/slide6.jpg" alt="Slide 3">
+	<section class="carousel-caption">
+	<h2>Slide 6</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt repellendus quod enim debitis eligendi iste ratione eum distinctio neque.</p>
+	</section>
+	</div>  <!--item close-->
+
+	<div class="item">
+	<img src="img/slide7.jpg" alt="Slide 3">
+	<section class="carousel-caption">
+	<h2>Slide 7</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt repellendus quod enim debitis eligendi iste ratione eum distinctio neque.</p>
+	</section>
+	</div>  <!--item close-->
+
+
+
+
+	</div><!--iner  close-->
+
+	<!-- LEFT-RIGHT -->
+	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	</a>
+	<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	</a>
+
+	<!-- THUMBNAILS -->
+	
+	<ol class="carousel-indicators">
+	<li data-target="#carousel-example-generic" data-slide-to="0" class="active">
+	<img src="img/slide1_mini.jpg" alt="Thumbnail 1">
+	</li>	
+	<li data-target="#carousel-example-generic" data-slide-to="1">
+	<img src="img/slide2_mini.jpg" alt="Thumbnail 2">
+	</li>	
+	<li data-target="#carousel-example-generic" data-slide-to="2">
+	<img src="img/slide3_mini.jpg" alt="Thumbnail 3">
+	</li>
+
+	<li data-target="#carousel-example-generic" data-slide-to="3">
+	<img src="img/slide4_mini.jpg" alt="Thumbnail 3">
+	</li>
+
+	<li data-target="#carousel-example-generic" data-slide-to="4">
+	<img src="img/slide5_mini.jpg" alt="Thumbnail 3">
+	</li>
+
+	<li data-target="#carousel-example-generic" data-slide-to="5">
+	<img src="img/slide6_mini.jpg" alt="Thumbnail 3">
+	</li>
+
+	<li data-target="#carousel-example-generic" data-slide-to="6">
+	<img src="img/slide7_mini.jpg" alt="Thumbnail 3">
+	</li>
+
+
+	</ol>
+	
+</div> <!-- Белая подложка-->
+	</div> <!-- carousel-example-generic -->
+	</div><!--row close-->
+	</div><!--col-md-12 close-->
+	</div><!--slider close-->
+
+
+
+</div> <!--container close -->
+</section> <!--our works -->
+
+
+  <!-- Cleaning after -->
+<div class="container-fluid "> 
+<div class="container we_clean">
+<div class="row">
+
+<img  class="lady_photo img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-4" src="img/girl.png"> 
+><p class="clean col-lg-4 col-md-4 col=sm-4 col-xs-4 "> После ремонта <br> мы <span> уберем за собой </span> <br> весь мусор</p> 
+<img class="hammer img-responsive col-lg-4 col-md-4 col=sm-4 col-xs-4 " src="img/hammer1.png"> 
+</div>
+</div>
+</div>
+
+<!-- Prices -->
+<div class="container-fluid prices">
+<div class="container">
+
+<h4 class="prices_for_service text-center">Цены на ремонт квартир и офисов </h4>
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> 
+<div class="econom">
+<p class="service_title text-center ">Эконом</p> <br>
+<p class="service_for" > Данный вариант подходит тем, кому нужно освежить ремонт, в кратчайшие сроки и с минимальными затратами </p> <br>
+<p class="service_description"> Услуга включает в себя: <br> 
+<br>
+
+демонтажные работы<br>
+шпатлевка и подготовка стен<br>
+шпатлевка и подготовка потолка<br>
+покраска потолка<br>
+оклейка обоями<br>
+укладка линолеума<br>
+укладка ламината<br>
+монтаж плинтусов </p>
+
+<br>
+<p class="service_price text-center "> От 1800 рублей м2 </p>
+</div>
+<button  class="second_button" >Оцените мне такой ремонт </button>
+</div>
+
+ 
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> 
+<div class="standart"> 
+<p class="service_title text-center ">Стандарт</p> <br>
+<p class="service_for" > Данный вариант подходит владельцам новостроек, а так же собственникам вторичного жилья  </p> <br>
+<p class="service_description"> Услуга включает в себя: <br> 
+<br>
+
+демонтажные работы<br>
+электромонтажные работы <br>
+сантехнические работы<br>
+натяжные потолки<br>
+штукатурка стен<br>
+стяжка пола<br>
+шпатлевка и подготовка стен<br>
+оклейка обоями<br>
+укладка плитки<br>
+укладка ламината<br>
+монтаж плинтусов<br>
+
+<br>
+<p class="service_price text-center "> От 4000 рублей м2 </p>
+</div>
+<button class="second_button">Оцените мне такой ремонт </button>
+</div>
+ 
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 "> 
+
+<div class="premium"> 
+<p class="service_title text-center ">Премиум</p> <br>
+<p class="service_for" > Данный вариант подходит тем кто любит эксклюзивный ремонт и нестандартные решения  </p><br>
+<p class="service_description"> Услуга включает в себя: <br> 
+<br>
+
+все услуги, <br>входящие в тариф стандарт<br>
+разработка эксклюзивного <br>дизайн проекта<br>
+сборка сложных потолочных <br>конструкций <br>
+сборка сложных >настенных <br>конструкций <br>
+</p>
+
+<br>
+<p class="service_price text-center "> От 6000 рублей м2 </p>
+
+
+ </div>
+<button class="second_button">Оцените мне такой ремонт </button>
+</div>
+</div>
+</div>
+</div>
+
+
+<!--Full detailed price-->
+
+<div class="container-fluid full_price">
+<h5 class="prices_list">Подробный прайс-лист </h5>
+
+
+
+<div class="col-lg-12 col-md-12"> 
+<div class="row" >
+
+
+<div class="col-lg-6 col-md-6">
+<div class="dropdown">
+  <button class=" full_price_list btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Демонтажные работы
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Очистка</a></li>
+    <li><a href="#">Удаление ненужных конструкций</a></li>
+    <li><a href="#">Подготовка к ремонту</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Подготовка к замене электрики</a></li>
+  </ul>
+</div>
+</div>
+
+
+<div class="col-lg-6 col-md-6">
+
+<div class="dropdown">
+  <button class="full_price_list  btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Работа со стенами
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Очистка</a></li>
+    <li><a href="#">Удаление ненужных конструкций</a></li>
+    <li><a href="#">Подготовка к ремонту</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Подготовка к замене электрики</a></li>
+  </ul>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-lg-12 col-md-12"> 
+<div class="row" >
+
+
+<div class="col-lg-6 col-md-6">
+<div class="dropdown">
+  <button class="full_price_list btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Окна и двери
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Очистка</a></li>
+    <li><a href="#">Удаление ненужных конструкций</a></li>
+    <li><a href="#">Подготовка к ремонту</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Подготовка к замене электрики</a></li>
+  </ul>
+</div>
+</div>
+
+
+<div class="col-lg-6 col-md-6">
+
+<div class="dropdown">
+  <button class=" full_price_list  btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Сантехнические работы
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Очистка</a></li>
+    <li><a href="#">Удаление ненужных конструкций</a></li>
+    <li><a href="#">Подготовка к ремонту</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Подготовка к замене электрики</a></li>
+  </ul>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-lg-12 col-md-12"> 
+<div class="row" >
+
+
+<div class="col-lg-6 col-md-6">
+<div class="dropdown">
+  <button class="full_price_list   btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Работы с потолком
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Очистка</a></li>
+    <li><a href="#">Удаление ненужных конструкций</a></li>
+    <li><a href="#">Подготовка к ремонту</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Подготовка к замене электрики</a></li>
+  </ul>
+</div>
+</div>
+
+
+<div class="col-lg-6 col-md-6">
+<div class="dropdown">
+  <button class="full_price_list   btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Работа с потолками
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Очистка</a></li>
+    <li><a href="#">Удаление ненужных конструкций</a></li>
+    <li><a href="#">Подготовка к ремонту</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Подготовка к замене электрики</a></li>
+  </ul>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-lg-12 col-md-12"> 
+<div class="row">
+
+
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+<div class="dropdown">
+  <button class="full_price_list btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Электромонтажные работы
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Очистка</a></li>
+    <li><a href="#">Удаление ненужных конструкций</a></li>
+    <li><a href="#">Подготовка к ремонту</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Подготовка к замене электрики</a></li>
+  </ul>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+
+<div class="dropdown">
+  <button class=" full_price_list btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Дополнительные услуги
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Очистка</a></li>
+    <li><a href="#">Удаление ненужных конструкций</a></li>
+    <li><a href="#">Подготовка к ремонту</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Подготовка к замене электрики</a></li>
+  </ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="container-fluid way_of_pay" >
+	<div class="container payment">
+
+
+		<div class="row">
+ 
+			<div class="red_square col-lg-2 col-md-2"><img style="float:left" class="img-responsive center-block marks" src="img/icon1.png">
+			</div>
+
+			<p class="col-lg-4 col-md-4 labels">Оплата только по факту <br> выполнения работы</p> 
+			
+		</div>
+
+
+		<div class="row">
+ 
+			<div class="red_square col-lg-2 col-md-2"><img style="float:left" class="img-responsive center-block marks" src="img/icon2.png">
+			</div>
+
+			<p class="col-lg-4 col-md-4 labels">Все работы проводим <br>в рамках договора</p> 
+			
+		</div>
+
+
+		<div class="row">
+ 
+			<div class="red_square col-lg-2 col-md-2"><img style="float:left" class="img-responsive center-block marks" src="img/icon3.png">
+			</div>
+
+			<p class="col-lg-4 col-md-4 labels">Гарантия на все <br> работы 3 года </p> 
+			
+		</div>
+
+		<img  class="img-responsive" id="master" src="img/master1.png">
+
+
+
+
+
+<div class="col-lg-3 your_choice_to_pay"> 
+<p class="opacity_text">Оплата</p> 
+<p>Наличка</p>
+<p>Безнал</p>
+</div>
+
+</div>
+</div>
+
+
+<div class="container pays"> 
+
+<div class="col-lg-1 picture"> <img   src="img/visa.png"></div>
+<div class="col-lg-1 picture"> <img src="img/MasterCard.png"></div>
+<div class="col-lg-1 picture "> <img src="img/Yandex.png"></div>
+<div class="col-lg-1 picture  "> <img src="img/Qiwi.png"></div>
+<div class="col-lg-1 picture "> <img src="img/Webmoney.png"></div>
+<div class="col-lg-7 variants"> <p>Варианты оплаты: наличный/безналичный </p>  </div>
+
+</div>
+
+
+
+
+
+
+<footer>
+
+<div class="container order">
+	<div class="row">
+		<div class="col-lg-6 col-md-6 " >
+			<p> <span class="number">1</span> Мы получаем <br> заявку </p> 
+ 
+			<p> <span class="number" >2</span> Выезжаем <br> на замер и оценку </p>
+ 			<p> <span class="number" >3</span> Составляем смету <br> (дешевле рынка) </p> 
+		</div>
+
+		<div class="col-lg-6 col-md-6"> 
+ 		<div class="form_for_upload2">
+
+<p class="your_data ">Заполните контактные данные</p>
+<form>
+<input id="name" type="text" placeholder="Вашe имя"  class="text-input" /> <br>
+<input id="phonenumber" type="text" placeholder="Контактный телефон" class="text-input"/>
+
+</form>
+<button class="form_button " onclick="cart.sendOrder('formToSend,overflw,bsum');">Заказать звонок</button> 
+
+</div>
+ 		 </div>
+		</div>
+		
+	</div>
+</div>
+
+</footer>
+
+
+</body>
+
+</html>
